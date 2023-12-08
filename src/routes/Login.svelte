@@ -12,7 +12,7 @@
 	];
 </script>
 
-<form method="POST" action="?/login" on:submit|preventDefault>
+<form method="POST" action="?/login">
 	{#each inputItems as item}
 		<input
 			class="bg-[#445867] text-black w-full text-left text-sm font-light transition-all duration-[0.3s] ease-[ease] leading-normal bg-clip-padding mb-3.5 px-5 py-[9px] rounded-md border-0 outline-none hover:bg-white focus:bg-white"
